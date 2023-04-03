@@ -16,9 +16,7 @@ export default function Home() {
             Welcome, good to see you here
           </p>
           <p>
-            Want to know more about me? check{' '}
-            <Link href = "/posts/aboutMe">here</Link>
-            
+            <Link href = "/posts/aboutMe">More About Me?</Link>
           </p>
         </section>
       </div>
