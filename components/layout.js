@@ -5,12 +5,19 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Bowen Zhao';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = '| Bowen Zhao';
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        <link rel="icon" href="../images/kirby.png" />
+      </Head>
+      <div className = {styles.topnav}>
+        <Link href = "/">Main Page</Link>
+        <Link href = "/posts/aboutMe">About Me</Link>
+      </div>
+      {/* <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
@@ -57,13 +64,16 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
-      </header>
+      </header> */}
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+          <Link href = "/"> ← Back to home</Link>
         </div>
       )}
+      <div className = {styles.botnav}>
+        <Link href = "https://www.linkedin.com/in/bowen-zhao-656743218/">LinkedIn</Link>
+      </div>
     </div>
   );
 }
