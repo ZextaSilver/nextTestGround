@@ -6,9 +6,15 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  background-image: url(../public/images/profile.jpg);
-  background-size: cover;
   
+  background-image: -moz-linear-gradient(180deg, rgb(194, 249, 255), rgb(163, 200, 255));
+  background-image: -webkit-linear-gradient(180deg, rgb(194, 249, 255), rgb(163, 200, 255));
+  background-image: linear-gradient(180deg, rgb(194, 249, 255), rgb(163, 200, 255));
+  
+  background-size: contain;
+  background-position: fixed;
+  position: relative;
+
 }
 
 a {
