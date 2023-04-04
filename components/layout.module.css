@@ -1,4 +1,14 @@
 
+.container{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main{
+	flex-grow: 1;
+}
+
 .header{
 	background-color: #333;
 	overflow: hidden;
@@ -14,9 +24,9 @@
 	color: #f2f2f2;
 	padding: 14px;
 	text-decoration: none;
+	text-align: center;
 	font-size: 17px;
 	width: 50%;
-	text-align: center;
 }
 
 .header a:hover{
@@ -29,15 +39,16 @@
 	overflow: hidden;
 	width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	position: sticky;
+	bottom: 0;
 }
 
 .footer a {
 	float: left;
 	color: #f2f2f2;
-	text-align: center;
 	padding: 14px;
 	text-decoration: none;
+	text-align: center;
 	font-size: 17px;
 	width: 33.33%;
 }

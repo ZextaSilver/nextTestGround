@@ -13,14 +13,14 @@ export const siteTitle = '| Bowen Zhao';
 
 export default function Layout({ children, home }) {
   return (
+    
     <>
-
       <main>{children}
 
         <Head>
           <link rel="icon" href="../images/kirby.png" />
         </Head>
-        
+
         <header className={styles.header}>
           <Link href = "/">Main Page</Link>
           <Link href = "/posts/projects">Projects</Link>
@@ -33,7 +33,6 @@ export default function Layout({ children, home }) {
         </footer>
 
       </main>
-
     </>
   );
 }
