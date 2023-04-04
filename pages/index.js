@@ -59,7 +59,7 @@ export default function Home() {
             12
           </p>
           <p>
-            <Link href = "/posts/aboutMe">More About Me?</Link>
+            <Link href = "/posts/projects">More About Me?</Link>
           </p>
           <p>
             13
