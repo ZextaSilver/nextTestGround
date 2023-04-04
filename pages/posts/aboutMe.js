@@ -13,6 +13,7 @@ export default function AboutMe()
 			and applications that are both fun and functional. I am passionate about creating
 			innovative solutions that solve real-world problems.
 			</p>
+			
 		</Layout>
 	);
 
