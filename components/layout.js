@@ -23,7 +23,7 @@ export default function Layout({ children, home }) {
         
         <header className={styles.header}>
           <Link href = "/">Main Page</Link>
-          <Link href = "/posts/aboutMe">About Me</Link>
+          <Link href = "/posts/projects">Projects</Link>
         </header>
 
         <footer className = {styles.footer}>

@@ -11,10 +11,20 @@ export default function Home() {
         <Head>
           <title>Main {siteTitle}</title>
         </Head>
+
+
+        <p>
+          Bowen
+        </p>
+
+        <p>
+          A game programmer and software engineer. I can speak both English and Mandarin. 
+          My expertise lies in developing Unity games and applications that are both fun and functional. 
+          I am passionate about creating innovative solutions that solve real-world problems.
+        </p>
+
         <section className = {utilStyles.headingMd}>
-          <p>
-            1
-          </p>
+          
           <p>
             2
           </p>
