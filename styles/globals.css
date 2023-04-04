@@ -1,20 +1,24 @@
 html,
 body {
-  padding: 0;
+  padding-top: 28px;
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  
+
   background-image: -moz-linear-gradient(180deg, rgb(194, 249, 255), rgb(163, 200, 255));
   background-image: -webkit-linear-gradient(180deg, rgb(194, 249, 255), rgb(163, 200, 255));
   background-image: linear-gradient(180deg, rgb(194, 249, 255), rgb(163, 200, 255));
   
-  background-size: contain;
-  background-position: fixed;
-  position: relative;
+  background-size: cover;
 
+  min-height: 100%;
+
+}
+
+main{
+  flex-grow: 1;
 }
 
 a {

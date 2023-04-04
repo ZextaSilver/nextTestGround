@@ -5,15 +5,8 @@ import Layout, { siteTitle } from '../../components/layout';
 export default function AboutMe()
 {
 	return(
-		<Layout children>
-			<Head>
-				<title>About Me {siteTitle}</title>
-			</Head>
-			
-			<h1>
-				About Me
-			</h1>
-
+		<Layout>
+		
 			<p>
 				A game programmer and software engineer.
 			I can speak both English and Mandarin. My expertise lies in developing Unity games

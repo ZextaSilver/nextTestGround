@@ -6,7 +6,7 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <div>
         <Head>
           <title>Main {siteTitle}</title>
@@ -56,6 +56,12 @@ export default function Home() {
           </p>
           <p>
             14
+          </p>
+          <p>
+            15
+          </p>
+          <p>
+            16
           </p>
           
           
