@@ -26,7 +26,7 @@ export default function Home() {
         <section className = {utilStyles.headingMd}>
           
           <p>
-            <Link href = "/posts/projects">More About Me?</Link>
+            <Link href = "/posts/projects">My Projects</Link>
           </p>
           
         </section>
