@@ -18,6 +18,14 @@ body {
 
 }
 
+main{
+  flex:1;
+}
+
+footer{
+  flex-shrink: 0;
+}
+
 a {
   color: #3b19ff;
   text-decoration:underline;
